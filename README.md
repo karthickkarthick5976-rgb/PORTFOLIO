@@ -1,83 +1,66 @@
-Karthick Seenivasan
-📍 Chennai ,India
-📧 karthickseenivasan154@email.com
+# 🌐 Personal Portfolio – Karthick Seenivasan
 
-📞 7603872671
-🔗 LinkedIn: https://www.linkedin.com/in/karthick-seenivasan-216647388
+A modern, responsive **personal portfolio website** built using **HTML & CSS** to showcase my skills, projects, and professional profile.
 
-💻 GitHub: https://github.com/karthickkarthick5976-rgb
+🔗 **Live Portfolio:** (Add your GitHub Pages link here)
 
-👨‍💻 About Me
+---
 
-I am a Data Science graduate with strong hands-on experience in data preprocessing, exploratory data analysis (EDA), visualization, and basic machine learning.
-I enjoy working with real-world datasets, especially in agriculture and market analysis, and I aim to start my career as a Data Analyst / Data Scientist.
+## 👤 About Me
 
-🛠️ Technical Skills
+I am a **B.Tech Information Technology graduate** with strong proficiency in **Python, SQL, Data Analysis, and Data Visualization**.  
+I have hands-on experience in **EDA, Machine Learning basics, and IoT-based projects**, and I enjoy solving real-world problems using data-driven solutions.
 
-Languages: Python, SQL, HTML, AWS
+---
 
-Data Analysis: Data Cleaning, EDA, Descriptive Statistics, Correlation Analysis
+## 🛠️ Technical Skills
 
-Libraries & Tools: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
+- **Languages:** Python, C++  
+- **Web Technologies:** HTML, CSS, React (Basic)  
+- **Data Tools:** Power BI, Tableau, Excel  
+- **Libraries & Frameworks:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Flask  
+- **Other Skills:** Machine Learning, Data Analytics, IoT, Raspberry Pi  
 
-Other Tools: Microsoft Excel (Pivot Tables, Charts), Jupyter Notebook
+---
 
-📊 Projects
-1️⃣ Crop Yield Prediction Using Weather Data
+## 📂 Projects
 
-🔗 Project Link:
-https://karthickkarthick5976-rgb.github.io/Crop-Yield-Prediction-Using-Weather-Data/
+### 🌾 Crop Yield Prediction Using Weather Data
+- Predicts crop yield patterns using weather data  
+- Data cleaning, analysis, and visualization  
+- 🔗 Live Project:  
+  https://karthickkarthick5976-rgb.github.io/Crop-Yield-Prediction-Using-Weather-Data/
 
-Description:
+---
 
-Analyzed historical weather data such as temperature, rainfall, humidity, and wind speed
+### 📱 Global Mobile Sales Prediction Project
+- Analyzed global mobile sales data to understand pricing trends  
+- Data grouping and visualization for insights  
+- 🔗 Live Project:  
+  https://karthickkarthick5976-rgb.github.io/GLOBAL-MOBILE-SALES-PREDICTION-PROJECT/
 
-Studied how weather conditions affect crop yield
+---
 
-Used statistical analysis and visualizations to identify patterns
+### 🌱 Agriculture Crop Production Yield Prediction
+- Studied agricultural production datasets  
+- Predicted crop yield and visualized results  
+- 🔗 Live Project:  
+  https://karthickkarthick5976-rgb.github.io/Agriculture-Crop-Production-Yield-Prediction/
 
-Tools Used: Python, Pandas, NumPy, Matplotlib, Seaborn
+---
 
-2️⃣ Global Mobile Sales Analysis
+## 📄 Resume
 
-🔗 Project Link:
-https://karthickkarthick5976-rgb.github.io/GLOBAL-MOBILE-SALES-PREDICTION-PROJECT/
+📥 **[Download Resume](resume.pdf)**
 
-Description:
+---
 
-Analyzed global mobile phone data including price and specifications
+## 🔗 Contact Information
 
-Cleaned and processed large datasets
+- 📍 Location: Ranipet, India  
+- 📧 Email: karthickseenivasan154@gmail.com  
+- 📞 Phone: +91 76038 72671  
+- 💼 LinkedIn: https://www.linkedin.com/in/karthick-seenivasan-216647388  
+- 💻 GitHub: https://github.com/karthickkarthick5976-rgb  
 
-Applied K-Means clustering to group similar mobile phones
 
-Visualized market trends and feature relationships
-
-Tools Used: Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
-
-3️⃣ Agriculture Crop Production & Yield Prediction
-
-🔗 Project Link:
-https://karthickkarthick5976-rgb.github.io/Agriculture-Crop-Production-Yield-Prediction/
-
-Description:
-
-Worked with agricultural datasets for Rice, Groundnut, and Sugarcane
-
-Performed data cleaning and EDA
-
-Compared crop-wise yield trends using charts and graphs
-
-Generated insights for data-driven agriculture decisions
-
-Tools Used: Python, Pandas, NumPy, Matplotlib, Seaborn
-
-🎓 Education
-
-Bachelor’s Degree (2025)
-Vel Tech Multi Tech Dr. Rangarajan Dr. Sakunthala Engineering College
-Avadi, Chennai
-
-🤝 Soft Skills
-
-Analytical Thinking | Problem Solving | Attention to Detail | Team Collaboration | Time Management
