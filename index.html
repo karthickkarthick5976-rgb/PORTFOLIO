@@ -1,148 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Karthick Seenivasan | Portfolio</title>
+<meta charset="UTF-8">
+<title>Karthick Seenivasan | Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
-            background: #0f172a;
-            color: #e5e7eb;
-        }
+<style>
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0f172a;
+    color: #e5e7eb;
+}
 
-        header {
-            background: #020617;
-            padding: 40px 20px;
-            text-align: center;
-        }
+header {
+    background: #020617;
+    padding: 40px 20px;
+    text-align: center;
+}
 
-        header h1 {
-            font-size: 36px;
-            margin-bottom: 10px;
-            color: #38bdf8;
-        }
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
 
-        header p {
-            font-size: 18px;
-            color: #cbd5f5;
-        }
+header p {
+    color: #94a3b8;
+    font-size: 1.1rem;
+}
 
-        section {
-            padding: 40px 20px;
-            max-width: 1000px;
-            margin: auto;
-        }
+.links a {
+    display: inline-block;
+    margin: 8px;
+    padding: 10px 18px;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+}
 
-        h2 {
-            color: #38bdf8;
-            margin-bottom: 20px;
-            border-bottom: 2px solid #1e293b;
-            padding-bottom: 5px;
-        }
+.links a:hover {
+    background: #1d4ed8;
+}
 
-        .projects a {
-            display: block;
-            background: #020617;
-            margin: 12px 0;
-            padding: 15px;
-            border-radius: 8px;
-            color: #e5e7eb;
-            text-decoration: none;
-            transition: 0.3s;
-        }
+section {
+    padding: 40px 10%;
+}
 
-        .projects a:hover {
-            background: #1e293b;
-            transform: scale(1.02);
-        }
+h2 {
+    color: #38bdf8;
+    border-bottom: 2px solid #1e293b;
+    padding-bottom: 6px;
+}
 
-        .resume-btn {
-            display: inline-block;
-            margin-top: 15px;
-            padding: 12px 25px;
-            background: #38bdf8;
-            color: #020617;
-            font-weight: bold;
-            border-radius: 6px;
-            text-decoration: none;
-            transition: 0.3s;
-        }
+.skills span {
+    display: inline-block;
+    background: #1e293b;
+    padding: 8px 14px;
+    border-radius: 20px;
+    margin: 6px;
+    font-size: 14px;
+}
 
-        .resume-btn:hover {
-            background: #0ea5e9;
-        }
+.project {
+    background: #020617;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
 
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: #020617;
-            margin-top: 40px;
-            color: #94a3b8;
-        }
-    </style>
+.project a {
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+    color: #64748b;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    section {
+        padding: 30px 5%;
+    }
+}
+</style>
 </head>
 
 <body>
 
 <header>
     <h1>Karthick Seenivasan</h1>
-    <p>Data Science Graduate | Data Analyst | Python Enthusiast</p>
+    <p>B.Tech IT Graduate | Data Analyst | IoT Enthusiast</p>
 
-    <!-- Resume Link -->
-    <a href="Karthick Resume.pdf" class="resume-btn" target="_blank">
-        📄 View / Download Resume
-    </a>
+    <div class="links">
+        <a href="KARTHICK SEENIVASAN.pdf" download>📄Resume</a>
+        <a href="https://www.linkedin.com/in/karthick-seenivasan-216647388" target="_blank">LinkedIn</a>
+        <a href="https://github.com/karthickkarthick5976-rgb" target="_blank">GitHub</a>
+        <a href="tel:+917603872671">📞7603872671</a>
+        <a href="mailto:karthickseenivasan154@gmail.com">✉ karthickseenivasan154@gmail.com</a>
+    </div>
 </header>
 
 <section>
     <h2>About Me</h2>
     <p>
-        Detail-oriented Data Science graduate with experience in data preprocessing,
-        exploratory data analysis, machine learning basics, and visualization.
-        Passionate about using data to solve real-world problems.
+        B.Tech graduate in Information Technology with strong proficiency in
+        Python, SQL, Data Analysis, and Data Visualization. Experienced in
+        exploratory data analysis (EDA), structured datasets, and IoT-based
+        projects. Passionate about solving real-world problems using data
+        and smart systems.
     </p>
-</section>
-
-<section class="projects">
-    <h2>Projects</h2>
-
-    <a href="https://karthickkarthick5976-rgb.github.io/Crop-Yield-Prediction-Using-Weather-Data/" target="_blank">
-        🌾 Crop Yield Prediction Using Weather Data
-    </a>
-
-    <a href="https://karthickkarthick5976-rgb.github.io/GLOBAL-MOBILE-SALES-PREDICTION-PROJECT/" target="_blank">
-        📱 Global Mobile Sales Analysis
-    </a>
-
-    <a href="https://karthickkarthick5976-rgb.github.io/Agriculture-Crop-Production-Yield-Prediction/" target="_blank">
-        🚜 Agriculture Crop Production Yield Prediction
-    </a>
 </section>
 
 <section>
     <h2>Skills</h2>
-    <p>
-        Python, SQL, HTML, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn,
-        Data Cleaning, EDA, Descriptive Statistics
-    </p>
+    <div class="skills">
+        <span>Python</span>
+        <span>C++</span>
+        <span>SQL</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>React (Basic)</span>
+        <span>Power BI</span>
+        <span>Tableau</span>
+        <span>Excel</span>
+        <span>Pandas</span>
+        <span>NumPy</span>
+        <span>Matplotlib</span>
+        <span>Seaborn</span>
+        <span>Scikit-learn</span>
+        <span>Flask</span>
+        <span>Machine Learning</span>
+        <span>IoT</span>
+        <span>Raspberry Pi</span>
+    </div>
 </section>
 
 <section>
-    <h2>Contact</h2>
-    <p>
-        📧 Email: karthickseenivasan154@email.com <br>
-        🔗 GitHub: <a href="https://github.com/karthickkarthick5976-rgb" target="_blank" style="color:#38bdf8;">github.com/karthickkarthick5976-rgb</a> <br>
-        🔗 LinkedIn: <a href="https://www.linkedin.com/in/karthick-seenivasan-216647388" target="_blank" style="color:#38bdf8;">LinkedIn Profile</a>
-    </p>
+    <h2>Projects</h2>
+
+    <div class="project">
+        <h3>🌾 Crop Yield Prediction Using Weather Data</h3>
+        <p>
+            Analyzed weather and crop datasets to predict yield patterns
+            using data analytics and visualization techniques.
+        </p>
+        <a href="https://karthickkarthick5976-rgb.github.io/Crop-Yield-Prediction-Using-Weather-Data/" target="_blank">
+            🔗 View Live Project
+        </a>
+    </div>
+
+    <div class="project">
+        <h3>📱 Global Mobile Sales Prediction Project</h3>
+        <p>
+            Cleaned and analyzed global mobile sales data to understand
+            pricing trends and feature impact on sales.
+        </p>
+        <a href="https://karthickkarthick5976-rgb.github.io/GLOBAL-MOBILE-SALES-PREDICTION-PROJECT/" target="_blank">
+            🔗 View Live Project
+        </a>
+    </div>
+
+    <div class="project">
+        <h3>🌱 Agriculture Crop Production Yield Prediction</h3>
+        <p>
+            Studied agricultural production data to predict crop yields
+            and visualize insights using Python.
+        </p>
+        <a href="https://karthickkarthick5976-rgb.github.io/Agriculture-Crop-Production-Yield-Prediction/" target="_blank">
+            🔗 View Live Project
+        </a>
+    </div>
+
 </section>
 
 <footer>
-    © 2026 Karthick Seenivasan | Portfolio
+    © 2026 Karthick Seenivasan | Ranipet, India
 </footer>
 
 </body>
 </html>
-
