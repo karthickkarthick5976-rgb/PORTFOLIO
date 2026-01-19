@@ -1,8 +1,6 @@
 # 🌐 Personal Portfolio – Karthick Seenivasan
 
-A modern, responsive **personal portfolio website** built using **HTML & CSS** to showcase my skills, projects, and professional profile.
-
-🔗 **Live Portfolio:** (Add your GitHub Pages link here)
+A modern, responsive **personal portfolio website** built using **HTML & CSS** to showcase my skills, projects, and professional profilo
 
 ---
 
