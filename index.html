@@ -60,69 +60,39 @@ body.light-mode{
   padding:2rem;
 }
 
-/* Header with step-by-step spacing */
-header{
+/* Header */
+.header{
   display:flex;
   justify-content:space-between;
   align-items:center;
-  flex-wrap:wrap;      /* allows wrapping instead of overlap */
+  flex-wrap:nowrap;      /* 🔴 force horizontal */
   gap:20px;
-
-  padding:30px 50px;
-  margin:2rem 0;
-
-  background:rgba(15,19,35,.85);
-  border-radius:12px;
-  backdrop-filter:blur(6px);
 }
 
-/* Logo */
-header h2{
-  font-family:'Poppins', sans-serif;
-  color:var(--primary);
-  letter-spacing:2px;
-  flex-shrink:0;       /* prevents logo shrinking */
-}
-
-/* Nav container */
-header nav{
+/* Nav */
+.nav{
   display:flex;
-  flex-wrap:wrap;      /* key fix */
+  flex-direction:row;   /* 🔴 force row */
+  flex-wrap:nowrap;     /* 🔴 prevent wrapping */
   gap:12px;
-  justify-content:flex-end;
   align-items:center;
-  max-width:100%;
 }
 
 /* Nav items */
 .nav-item{
-  padding:10px 18px;
-  border:1px solid var(--border);
-  border-radius:8px;
-  color:var(--text);
-  text-decoration:none;
-  font-weight:600;
-
-  white-space:nowrap;  /* keeps text in one line */
-  flex-shrink:0;       /* prevents collision */
-  transition:.3s;
+  width:auto;           /* 🔴 REMOVE 100% width */
+  white-space:nowrap;
 }
 
-/* Mobile */
-@media (max-width:992px){
-  header{
-    flex-direction:column;
-    align-items:stretch;
-    padding:25px 30px;
+/* OPTIONAL: Mobile stacking */
+@media (max-width:768px){
+  .header{
+    flex-wrap:wrap;     /* allow wrap only on mobile */
   }
 
-  header nav{
+  .nav{
+    flex-wrap:wrap;
     justify-content:center;
-  }
-
-  .nav-item{
-    width:100%;
-    text-align:center;
   }
 }
 
@@ -294,18 +264,22 @@ footer{
 <body>
 <div class="container">
 
-<header>
-<h2>KS</h2>
-<nav>
-<a href="#about" class="nav-item">About</a>
-<a href="#projects" class="nav-item">Projects</a>
-<a href="#skills" class="nav-item">Skills</a>
-<a href="#achievements" class="nav-item">Achievements</a>
-<a href="#volunteer" class="nav-item">Volunteer</a>
-<a href="#contact" class="nav-item">Contact</a>
-<button id="theme-toggle" class="nav-item">Toggle Dark/Light</button>
-</nav>
-</header>
+  <header class="header">
+    <h2 class="logo">KS</h2>
+
+    <nav class="nav">
+      <a href="#about" class="nav-item">About</a>
+      <a href="#projects" class="nav-item">Projects</a>
+      <a href="#skills" class="nav-item">Skills</a>
+      <a href="#achievements" class="nav-item">Achievements</a>
+      <a href="#volunteer" class="nav-item">Volunteer</a>
+      <a href="#workspace" class="nav-item">Workspace</a>
+      <a href="#contact" class="nav-item">Contact</a>
+      <button id="theme-toggle" class="nav-item">Toggle</button>
+    </nav>
+  </header>
+
+</div>
 
 <section class="hero">
 <h1>Karthick Seenivasan</h1>
