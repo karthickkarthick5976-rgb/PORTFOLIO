@@ -2,190 +2,245 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Karthick Seenivasan | Portfolio</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Karthick Seenivasan | Data Analyst & Python Developer</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
 <style>
-body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background: #0f172a;
-    color: #e5e7eb;
+:root{
+--primary:#6e48aa;
+--accent:#4776E6;
+--dark:#0f1020;
+--light:#f8f9fa;
 }
-
-header {
-    background: #020617;
-    padding: 40px 20px;
-    text-align: center;
+body{
+margin:0;
+font-family:'Segoe UI',sans-serif;
+background:var(--dark);
+color:var(--light);
 }
-
-header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
+.container{max-width:1200px;margin:auto;padding:2rem;}
+header{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;}
+.nav-item{
+padding:8px 16px;
+border:2px solid var(--accent);
+border-radius:6px;
+color:#cfe7ff;
+text-decoration:none;
+font-weight:600;
+margin:5px;
+transition:.3s;
 }
-
-header p {
-    color: #94a3b8;
-    font-size: 1.1rem;
+.nav-item:hover{background:var(--accent);color:#fff;}
+.hero{text-align:center;padding:5rem 1rem;}
+.hero h1{
+font-size:3.5rem;
+background:linear-gradient(45deg,var(--primary),var(--accent));
+-webkit-background-clip:text;
+color:transparent;
 }
-
-.links a {
-    display: inline-block;
-    margin: 8px;
-    padding: 10px 18px;
-    background: #2563eb;
-    color: white;
-    text-decoration: none;
-    border-radius: 6px;
-    font-size: 14px;
+section{padding:4rem 0;border-bottom:1px solid rgba(255,255,255,.1);}
+.section-title{font-size:2.4rem;margin-bottom:2rem;color:#9fc1ff;}
+.card{
+background:rgba(30,30,46,.9);
+padding:1.6rem;
+border-radius:10px;
+border-left:4px solid var(--accent);
+margin-bottom:2rem;
 }
-
-.links a:hover {
-    background: #1d4ed8;
+.skill-tag{
+display:inline-block;
+padding:8px 14px;
+border:1px solid var(--primary);
+border-radius:20px;
+margin:6px;
 }
-
-section {
-    padding: 40px 10%;
+.social-item{
+padding:10px 18px;
+border:2px solid;
+border-radius:6px;
+color:white;
+text-decoration:none;
+font-weight:600;
+margin:5px;
+display:inline-block;
 }
-
-h2 {
-    color: #38bdf8;
-    border-bottom: 2px solid #1e293b;
-    padding-bottom: 6px;
-}
-
-.skills span {
-    display: inline-block;
-    background: #1e293b;
-    padding: 8px 14px;
-    border-radius: 20px;
-    margin: 6px;
-    font-size: 14px;
-}
-
-.project {
-    background: #020617;
-    padding: 20px;
-    margin-top: 20px;
-    border-radius: 10px;
-}
-
-.project a {
-    color: #38bdf8;
-    text-decoration: none;
-}
-
-.project a:hover {
-    text-decoration: underline;
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-    background: #020617;
-    color: #64748b;
-    font-size: 14px;
-}
-
-@media (max-width: 768px) {
-    section {
-        padding: 30px 5%;
-    }
-}
+footer{text-align:center;padding:2rem;opacity:.8;}
 </style>
 </head>
 
 <body>
+<div class="container">
 
 <header>
-    <h1>Karthick Seenivasan</h1>
-    <p>B.Tech IT Graduate | Data Analyst | IoT Enthusiast</p>
-
-    <div class="links">
-        <a href="KARTHICK SEENIVASAN.pdf" download>📄Resume</a>
-        <a href="https://www.linkedin.com/in/karthick-seenivasan-216647388" target="_blank">LinkedIn</a>
-        <a href="https://github.com/karthickkarthick5976-rgb" target="_blank">GitHub</a>
-        <a href="tel:+917603872671">📞7603872671</a>
-        <a href="mailto:karthickseenivasan154@gmail.com">✉ karthickseenivasan154@gmail.com</a>
-    </div>
+<h2>KS</h2>
+<nav>
+<a href="#about" class="nav-item">About</a>
+<a href="#projects" class="nav-item">Projects</a>
+<a href="#skills" class="nav-item">Skills</a>
+<a href="#achievements" class="nav-item">Achievements & Awards</a>
+<a href="#volunteer" class="nav-item">Volunteer</a>
+<a href="#contact" class="nav-item">Contact</a>
+</nav>
 </header>
 
-<section>
-    <h2>About Me</h2>
-    <p>
-        B.Tech graduate in Information Technology with strong proficiency in
-        Python, SQL, Data Analysis, and Data Visualization. Experienced in
-        exploratory data analysis (EDA), structured datasets, and IoT-based
-        projects. Passionate about solving real-world problems using data
-        and smart systems.
-    </p>
+<section class="hero">
+<h1>Karthick Seenivasan</h1>
+<p>Data Analyst | Python Developer | ML & IoT Enthusiast</p>
 </section>
 
-<section>
-    <h2>Skills</h2>
-    <div class="skills">
-        <span>Python</span>
-        <span>C++</span>
-        <span>SQL</span>
-        <span>HTML</span>
-        <span>CSS</span>
-        <span>React (Basic)</span>
-        <span>Power BI</span>
-        <span>Tableau</span>
-        <span>Excel</span>
-        <span>Pandas</span>
-        <span>NumPy</span>
-        <span>Matplotlib</span>
-        <span>Seaborn</span>
-        <span>Scikit-learn</span>
-        <span>Flask</span>
-        <span>Machine Learning</span>
-        <span>IoT</span>
-        <span>Raspberry Pi</span>
-    </div>
+<!-- ABOUT -->
+<section id="about">
+<h2 class="section-title">About Me</h2>
+
+<div class="card">
+<p>
+B.Tech graduate in <strong>Information Technology</strong> with hands-on experience in 
+<strong>Python, SQL, Data Analysis, Machine Learning, and Data Visualization</strong>. 
+Passionate about transforming raw data into meaningful insights for real-world decision making.
+</p>
+</div>
+
+<div class="card">
+<h3>Education</h3>
+<p><strong>B.Tech – Information Technology</strong><br>
+Vel Tech Multi Tech Engineering College, Chennai (2025)</p>
+
+<p><strong>Diploma – Mechanical Engineering</strong><br>
+Shri Sitheswarar Polytechnic College, Arcot (2021)</p>
+</div>
+
+<div class="card">
+<h3>Mission</h3>
+<p>
+To build intelligent, data-driven solutions using Python and Machine Learning 
+that solve real-world problems in agriculture, healthcare, and business analytics.
+</p>
+</div>
 </section>
 
-<section>
-    <h2>Projects</h2>
+<!-- PROJECTS -->
+<section id="projects">
+<h2 class="section-title">Projects</h2>
 
-    <div class="project">
-        <h3>🌾 Crop Yield Prediction Using Weather Data</h3>
-        <p>
-            Analyzed weather and crop datasets to predict yield patterns
-            using data analytics and visualization techniques.
-        </p>
-        <a href="https://karthickkarthick5976-rgb.github.io/Crop-Yield-Prediction-Using-Weather-Data/" target="_blank">
-            🔗 View Live Project
-        </a>
-    </div>
+<div class="card">
+<h3>Crop Yield Prediction Using Weather Data</h3>
+<ul>
+<li>Analyzed historical weather data including rainfall, temperature, humidity, and wind speed</li>
+<li>Performed data preprocessing, missing value handling, and exploratory data analysis (EDA)</li>
+<li>Visualized correlations between climate factors and crop productivity</li>
+<li>Designed a scalable pipeline for ML-based crop yield prediction</li>
+</ul>
+<p><strong>Technologies:</strong> Python, Pandas, NumPy, Matplotlib, Seaborn</p>
+</div>
 
-    <div class="project">
-        <h3>📱 Global Mobile Sales Prediction Project</h3>
-        <p>
-            Cleaned and analyzed global mobile sales data to understand
-            pricing trends and feature impact on sales.
-        </p>
-        <a href="https://karthickkarthick5976-rgb.github.io/GLOBAL-MOBILE-SALES-PREDICTION-PROJECT/" target="_blank">
-            🔗 View Live Project
-        </a>
-    </div>
+<div class="card">
+<h3>Global Mobile Sales Analysis & Prediction</h3>
+<ul>
+<li>Processed and analyzed 1,000+ mobile sales records across multiple brands</li>
+<li>Applied K-Means clustering for customer segmentation</li>
+<li>Identified pricing trends and brand-wise performance insights</li>
+</ul>
+<p><strong>Technologies:</strong> Python, Pandas, Scikit-learn</p>
+</div>
 
-    <div class="project">
-        <h3>🌱 Agriculture Crop Production Yield Prediction</h3>
-        <p>
-            Studied agricultural production data to predict crop yields
-            and visualize insights using Python.
-        </p>
-        <a href="https://karthickkarthick5976-rgb.github.io/Agriculture-Crop-Production-Yield-Prediction/" target="_blank">
-            🔗 View Live Project
-        </a>
-    </div>
+<div class="card">
+<h3>NeuroSync – AI-Based IoT Exoskeleton</h3>
+<ul>
+<li>Designed an IoT-enabled assistive exoskeleton system for MND patients</li>
+<li>Integrated Raspberry Pi and sensors for real-time motion assistance</li>
+<li>Applied AI logic to improve responsiveness and mobility support</li>
+</ul>
+<p><strong>Technologies:</strong> Python, IoT, Raspberry Pi, Machine Learning</p>
+</div>
 
+<div class="card">
+<h3>Library Management System (RFID Based)</h3>
+<ul>
+<li>Developed a GUI-based library management system for book issuing and returns</li>
+<li>Integrated RFID technology to automate tracking and reduce manual errors</li>
+<li>Implemented secure librarian login and role-based access control</li>
+<li>Managed book records, users, and transaction history efficiently</li>
+</ul>
+<p><strong>Technologies:</strong> Python, Tkinter, RFID, SQLite</p>
+</div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+<h2 class="section-title">Skills</h2>
+<div>
+<span class="skill-tag">Python</span>
+<span class="skill-tag">SQL</span>
+<span class="skill-tag">Data Analysis</span>
+<span class="skill-tag">EDA</span>
+<span class="skill-tag">Machine Learning</span>
+<span class="skill-tag">Power BI</span>
+<span class="skill-tag">Tableau</span>
+<span class="skill-tag">Pandas</span>
+<span class="skill-tag">NumPy</span>
+<span class="skill-tag">Matplotlib</span>
+<span class="skill-tag">Seaborn</span>
+<span class="skill-tag">IoT</span>
+<span class="skill-tag">Raspberry Pi</span>
+</div>
+</section>
+
+<!-- ACHIEVEMENTS -->
+<section id="achievements">
+<h2 class="section-title">Achievements, Awards & Certifications</h2>
+
+<div class="card">
+<h3>Achievements</h3>
+<ul>
+<li>Winner – Department Kabaddi Tournament (2024)</li>
+<li>Winner – School Level Chess Competition</li>
+<li>Participant – District & State Level Chess Championships</li>
+<li>Participant – FIDE World Chess Championship Event (2013)</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Awards & Certifications</h3>
+<ul>
+<li>Python Developer Certification – Engineering Monk (2025)</li>
+<li>Diploma in Data Science – LIVEWire Academy (2025)</li>
+<li>AWS Solution Architect Associate – CADD CAMM (2024)</li>
+</ul>
+</div>
+</section>
+
+<!-- VOLUNTEER -->
+<section id="volunteer">
+<h2 class="section-title">Volunteer Experience</h2>
+<div class="card">
+<ul>
+<li>Volunteer – Government Environmental Clean-up Program</li>
+<li>Participated in environmental awareness and sustainability initiatives</li>
+<li>Collaborated with teams to support community engagement programs</li>
+</ul>
+</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+<h2 class="section-title">Contact</h2>
+<a href="mailto:karthickseenivasan154@gmail.com" class="social-item">
+<i class="fas fa-envelope"></i> Email
+</a>
+<a href="https://github.com/karthickkarthick5976-rgb" class="social-item">
+<i class="fab fa-github"></i> GitHub
+</a>
+<a href="https://www.linkedin.com/in/karthick-seenivasan-216647388" class="social-item">
+<i class="fab fa-linkedin"></i> LinkedIn
+</a>
 </section>
 
 <footer>
-    © 2026 Karthick Seenivasan | Ranipet, India
+© 2025 Karthick Seenivasan | Data Analyst Portfolio
 </footer>
 
+</div>
 </body>
 </html>
