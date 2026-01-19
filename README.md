@@ -6,60 +6,106 @@ A modern, responsive **personal portfolio website** built using **HTML & CSS** t
 
 ---
 
-## 👤 About Me
+👤 About Me
 
-I am a **B.Tech Information Technology graduate** with strong proficiency in **Python, SQL, Data Analysis, and Data Visualization**.  
-I have hands-on experience in **EDA, Machine Learning basics, and IoT-based projects**, and I enjoy solving real-world problems using data-driven solutions.
+I am a B.Tech graduate in Information Technology with strong hands-on experience in:
 
----
+Data Analysis
 
-## 🛠️ Technical Skills
+Python Development
 
-- **Languages:** Python, C++  
-- **Web Technologies:** HTML, CSS, React (Basic)  
-- **Data Tools:** Power BI, Tableau, Excel  
-- **Libraries & Frameworks:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Flask  
-- **Other Skills:** Machine Learning, Data Analytics, IoT, Raspberry Pi  
+Machine Learning
 
----
+Data Visualization
 
-## 📂 Projects
+IoT-based Systems
 
-### 🌾 Crop Yield Prediction Using Weather Data
-- Predicts crop yield patterns using weather data  
-- Data cleaning, analysis, and visualization  
-- 🔗 Live Project:  
-  https://karthickkarthick5976-rgb.github.io/Crop-Yield-Prediction-Using-Weather-Data/
+I enjoy solving real-world problems using data-driven and AI-powered solutions, especially in agriculture, healthcare, and analytics.
 
----
+🛠️ Skills
 
-### 📱 Global Mobile Sales Prediction Project
-- Analyzed global mobile sales data to understand pricing trends  
-- Data grouping and visualization for insights  
-- 🔗 Live Project:  
-  https://karthickkarthick5976-rgb.github.io/GLOBAL-MOBILE-SALES-PREDICTION-PROJECT/
+Programming: Python, SQL
 
----
+Data Analysis: Pandas, NumPy, EDA
 
-### 🌱 Agriculture Crop Production Yield Prediction
-- Studied agricultural production datasets  
-- Predicted crop yield and visualized results  
-- 🔗 Live Project:  
-  https://karthickkarthick5976-rgb.github.io/Agriculture-Crop-Production-Yield-Prediction/
+Visualization: Matplotlib, Seaborn, Power BI, Tableau
 
----
+Machine Learning: Scikit-learn (Basics)
 
-## 📄 Resume
+Other: IoT, Raspberry Pi, RFID
 
-📥 **[Download Resume](resume.pdf)**
+Tools: Git, GitHub
 
----
+📂 Projects
+🌾 Crop Yield Prediction Using Weather Data
 
-## 🔗 Contact Information
+Analyzed rainfall, temperature, humidity, and wind speed data
 
-- 📍 Location: Ranipet, India  
-- 📧 Email: karthickseenivasan154@gmail.com  
-- 📞 Phone: +91 76038 72671  
+Performed data preprocessing and exploratory data analysis
+
+Built an ML-ready prediction workflow
+Tech: Python, Pandas, NumPy, Matplotlib, Seaborn
+
+📱 Global Mobile Sales Analysis & Prediction
+
+Analyzed 1,000+ global mobile sales records
+
+Applied K-Means clustering for customer segmentation
+
+Identified pricing and brand performance trends
+Tech: Python, Pandas, Scikit-learn
+
+🤖 NeuroSync – AI-Based IoT Exoskeleton
+
+IoT-assisted mobility support system for MND patients
+
+Integrated Raspberry Pi with sensors
+
+Used AI logic to improve movement responsiveness
+Tech: Python, IoT, Raspberry Pi
+
+📚 Library Management System (RFID)
+
+GUI-based system for issuing and returning books
+
+RFID integration for automated tracking
+
+Secure librarian access and database management
+Tech: Python, Tkinter, RFID, SQLite
+
+🎓 Education
+
+B.Tech – Information Technology
+Vel Tech Multi Tech Engineering College (2025)
+
+Diploma – Mechanical Engineering
+Shri Sitheswarar Polytechnic College (2021)
+
+🏆 Certifications & Achievements
+
+Python Developer Certification – Engineering Monk (2025)
+
+Diploma in Data Science – LIVEWire Academy (2025)
+
+AWS Solution Architect Associate – CADD CAMM (2024)
+
+Winner – Department Kabaddi Tournament
+
+Winner – School Level Chess Competition
+
+🤝 Volunteer Experience
+
+Volunteer – Government Environmental Clean-up Program
+
+Participated in environmental awareness initiatives
+
+📬 Contact
+
+📧 Email: karthickseenivasan154@gmail.com
+
+💼 LinkedIn: linkedin.com/in/karthick-seenivasan-216647388
+
+💻 GitHub: github.com/karthickkarthick5976-rgb
 - 💼 LinkedIn: https://www.linkedin.com/in/karthick-seenivasan-216647388  
 - 💻 GitHub: https://github.com/karthickkarthick5976-rgb  
 
