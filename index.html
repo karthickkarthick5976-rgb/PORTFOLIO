@@ -60,30 +60,83 @@ body.light-mode{
   padding:2rem;
 }
 
-/* Header */
+/* Header with step-by-step spacing */
 header{
   display:flex;
   justify-content:space-between;
   align-items:center;
-  flex-wrap:wrap;
+  flex-wrap:wrap;      /* allows wrapping instead of overlap */
+  gap:20px;
+
+  padding:30px 50px;
+  margin:2rem 0;
+
+  background:rgba(15,19,35,.85);
+  border-radius:12px;
+  backdrop-filter:blur(6px);
 }
 
+/* Logo */
 header h2{
   font-family:'Poppins', sans-serif;
   color:var(--primary);
   letter-spacing:2px;
+  flex-shrink:0;       /* prevents logo shrinking */
 }
 
+/* Nav container */
+header nav{
+  display:flex;
+  flex-wrap:wrap;      /* key fix */
+  gap:12px;
+  justify-content:flex-end;
+  align-items:center;
+  max-width:100%;
+}
+
+/* Nav items */
 .nav-item{
-  padding:8px 16px;
+  padding:10px 18px;
   border:1px solid var(--border);
   border-radius:8px;
   color:var(--text);
   text-decoration:none;
   font-weight:600;
-  margin:5px;
+
+  white-space:nowrap;  /* keeps text in one line */
+  flex-shrink:0;       /* prevents collision */
   transition:.3s;
-  cursor:pointer;
+}
+
+/* Mobile */
+@media (max-width:992px){
+  header{
+    flex-direction:column;
+    align-items:stretch;
+    padding:25px 30px;
+  }
+
+  header nav{
+    justify-content:center;
+  }
+
+  .nav-item{
+    width:100%;
+    text-align:center;
+  }
+}
+
+
+/* Toggle button always black */
+#theme-toggle {
+  color: black !important;
+  border: 1px solid #000;
+  background: #f5f5f5;
+}
+
+#theme-toggle:hover {
+  color: black !important;
+  background: #d1d1d1;
 }
 
 .nav-item:hover{
@@ -101,10 +154,7 @@ header h2{
 .hero h1{
   font-size:3.6rem;
   font-family:'Poppins', sans-serif;
-  background:linear-gradient(90deg,var(--primary),var(--secondary));
-  -webkit-background-clip:text;
-  color:transparent;
-  animation: glow 2s infinite alternate;
+  color: black; /* Matches toggle button */
 }
 
 .hero p{
@@ -113,24 +163,21 @@ header h2{
   margin:1rem 0;
 }
 
-@keyframes glow{
-  0%{text-shadow:0 0 10px var(--primary);}
-  100%{text-shadow:0 0 20px var(--secondary);}
+/* Section Titles with internal spacing */
+.section-title{
+  font-size:2.3rem;
+  margin-bottom:2rem;
+  padding:10px 15px; /* Space inside the h2 */
+  font-family:'Poppins', sans-serif;
+  background:linear-gradient(90deg,var(--primary),var(--secondary));
+  -webkit-background-clip:text;
+  color:transparent;
 }
 
 /* Sections */
 section{
   padding:4rem 0;
   border-bottom:1px solid var(--border);
-}
-
-.section-title{
-  font-size:2.3rem;
-  margin-bottom:2rem;
-  font-family:'Poppins', sans-serif;
-  background:linear-gradient(90deg,var(--primary),var(--secondary));
-  -webkit-background-clip:text;
-  color:transparent;
 }
 
 /* Cards */
@@ -225,38 +272,22 @@ footer{
   opacity:.7;
 }
 
-/* Developer Workspace Section */
+/* Developer Workspace hidden */
 #workspace{
-  display: none; /* hidden by default */
+  display: none;
 }
 
-/* Workspace content if ever shown */
-.workspace{
-  background: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80') no-repeat center center;
-  background-size: cover;
-  border-radius: 12px;
-  padding: 20px;
-  box-shadow: 0 0 30px rgba(34,211,238,0.25);
-  margin-bottom:2rem;
-  position: relative;
-  overflow: hidden;
-}
-
-.workspace::before{
-  content:"";
-  position:absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
-  background: rgba(15,19,35,0.7);
-  backdrop-filter: blur(5px);
-  z-index:0;
-}
-
-.workspace > *{
-  position: relative;
-  z-index:1;
+/* Responsive header */
+@media (max-width: 992px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 25px 30px;
+  }
+  .nav-item {
+    width: 100%;
+    text-align: center;
+  }
 }
 </style>
 </head>
@@ -426,4 +457,3 @@ toggle.addEventListener('click', () => {
 </script>
 </body>
 </html>
-
